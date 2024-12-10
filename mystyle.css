@@ -1,0 +1,95 @@
+/* mystyle.css */
+body {
+    font-family: 'Itim', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background-color: #fff; 
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #007BFF;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: inline-block;
+    font-weight: bold;
+    color: #333;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Itim', sans-serif;
+    box-sizing: border-box;
+}
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="file"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #28a745; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    float: right;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838; 
+}
+button[type="reset"] {
+    padding: 10px 20px;
+    background-color: #f60707; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button[type="reset"]:hover {
+    background-color: #bb0101; 
+}
+/* ให้ช่องกรอกข้อมูลมีพื้นที่ห่างจากกัน */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+form:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* เพิ่มเงาเมื่อ hover */
+}
+
