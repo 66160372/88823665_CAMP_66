@@ -120,7 +120,7 @@ function checkname() {
       swal.fire({
         title:nametitle,
         text:nametext,
-        icon:"error"
+        icon:"success"
       })
      if(confirm){
       event.target.submit();
